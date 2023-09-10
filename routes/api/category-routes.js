@@ -9,9 +9,8 @@ router.get('/', async (req, res) => {
   // includes associated Products
   try {
     const categoryData = await Category.findAll({
-      include: { 
-        model: Product
-       }
+      include: 
+      { model: Product }
     });
     res.status(200).json(categoryData);
   } catch (err) {
@@ -27,9 +26,8 @@ router.get('/:id', async (req, res) => {
       where: {
         id: req.params.id
       },
-      include: { 
-        model: Product
-       }
+      include: 
+      { model: Product }
     });
 
     if (!categoryData) {
@@ -75,7 +73,7 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // deletes a category by `id` value
   try {
-    const categoryData = await Category.destroy(req.body, {
+    const categoryData = await Category.destroy ({
       where: {
         id: req.params.id
       }
