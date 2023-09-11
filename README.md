@@ -12,6 +12,7 @@ The application is able to `Create`, `Read`, `Update` and `Delete` Categories, P
 - [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Walkthrough Video](#walkthrough-video)
+- [Credits](#credits)
 - [License](#license)
 
 
@@ -53,6 +54,11 @@ This is an example image of the application used in insomnia.
 ## Walkthrough-Video
 
 To see how this application works, follow the [Walkthrough Video](https://drive.google.com/file/d/1DEC6a5M5C0Xp-H9Kp334RiagOERxEjbS/view?usp=drive_link).
+
+
+## Credits
+
+Special thanks to [Xandromus](https://github.com/Xandromus) for providing the [starter code](https://github.com/coding-boot-camp/fantastic-umbrella).
 
 
 ## License
