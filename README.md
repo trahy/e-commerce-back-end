@@ -23,12 +23,12 @@ The application is able to `Create`, `Read`, `Update` and `Delete` Categories, P
 3. `npm i` in the terminal to install the required npm packages.
 4. Create a `.env` file in the root directory with the following information:
 ```
-DB_NAME='YOUR DATABASE NAME'
-DB_USER='YOUR USERNAME'
+DB_NAME='ecommerce_db'
+DB_USER='root'
 DB_PW='YOUR PASSWORD'
 ```
-5. Create a terminal from the `schema.sql` and run the command `mysql -u root -p`.
-6. Enter your SQL password, then `SOURCE schema.sql;`.
+5. Create a terminal from the `schema.sql` and run the command `mysql -u root -p`
+6. Enter your SQL password, then `SOURCE schema.sql;`
 
 
 ## Usage
